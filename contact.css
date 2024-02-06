@@ -1,0 +1,172 @@
+.menu {
+    background-color: white;
+}
+
+.menu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: white;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.menu a.active {
+    background-color: red;
+    color: white;
+}
+
+.login {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: orange;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color_code: #d1341f;
+}
+
+.header-left {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    margin-left: 10px;
+}
+
+.header-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-title {
+    color: #d1341f;
+    margin-left: 10px;
+}
+
+.header-title img {
+    height: 50px;
+}
+
+.content-title {
+    width: 100%;
+    height: 600px;
+    background-image: url("img/disc.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title h2 {
+    color: white;
+    font-size: 48px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h2,
+.footer h3 {
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer_bottom {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* set the row height to the full height of the viewport */
+}
+
+.container1{
+    max-height: 400px;
+}
+
+
+
+
+
+
+.contact {
+    width: 100%;
+    height: 600px;
+    background-image: url("img/content-background.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.box {
+    flex: 1;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+
+    background-color: #ffffff;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+}

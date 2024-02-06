@@ -1,0 +1,117 @@
+.user-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 98.5%;
+  margin-bottom: 20px;
+}
+
+.user-panel h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.user-panel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.user-panel li {
+  margin-bottom: 5px;
+}
+
+.user-panel a {
+  color: #333;
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.user-panel a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.classes, .concert, .competitions {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.classes h3, .concert h3, .competitions h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.class-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.class {
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.class img {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.class h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.class p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.class a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+}
+.text-container {
+    margin-left: 30px;
+}
+
+.two-column img {
+  width:600px;
+  height:600px;
+  margin-left: 30px;/* adjust this value to control the amount of the rightward movement */
+}
+
+.register-button{
+      display: block;
+      margin: 20px auto;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      width: 100px;
+      font-size: 17px;
+      background-color: orange;
+    }
