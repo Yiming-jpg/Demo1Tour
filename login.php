@@ -68,7 +68,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
     <div class="container" id="container">
         <div class="form-container sign-in-container">
             <form action="#" method="POST">
-                <h1>AM TOUR</h1><br><br>
+                <h1>AM TOUR TEST</h1><br><br>
                 <div class="infield">
                     <input type="text" placeholder="username" name="username" autocomplete="off" required/>
                     <label></label>
